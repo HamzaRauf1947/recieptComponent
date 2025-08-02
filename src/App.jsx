@@ -12,7 +12,7 @@ import {
 
 function App() {
   return (
-    <div style={{ boxSizing: "border-box" }} className="p-4 text-[#212121]">
+    <div style={{ boxSizing: "border-box" }} className="px-[16px] text-[#212121]">
       <div className="flex justify-center my-[40px_26px]">
         <img src={LogoMobile} alt="" />
       </div>
@@ -84,7 +84,7 @@ function App() {
         </div>
       </div>
 
-      <p className="text-[14px] font-semibold">Delivered to: <span className="font-normal">Leave at the door</span></p>
+      <p className="text-[14px] font-semibold mb-[32px]">Delivered to: <span className="font-normal">Leave at the door</span></p>
 
 
 
